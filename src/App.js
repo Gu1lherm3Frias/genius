@@ -131,8 +131,8 @@ export default function App() {
       <footer className='footer'>
         <h4 className='contributors'>Contributors</h4>
         <nav>
-          <a href="https://github.com/Gu1lherm3Frias" target='_blank'>@Gu1lherm3frias</a>
-          <a href="https://github.com/quokequack" target='_blank'>@quokequack</a>
+          <a href="https://github.com/Gu1lherm3Frias" target='_blank' rel='noreferrer'>@Gu1lherm3frias</a>
+          <a href="https://github.com/quokequack" target='_blank' rel='noreferrer'>@quokequack</a>
         </nav>
       </footer>
     </div>
