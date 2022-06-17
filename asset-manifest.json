@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/genius/static/css/main.56c30e53.css",
-    "main.js": "/genius/static/js/main.b1c235b3.js",
+    "main.js": "/genius/static/js/main.61bcdc11.js",
     "index.html": "/genius/index.html",
     "main.56c30e53.css.map": "/genius/static/css/main.56c30e53.css.map",
-    "main.b1c235b3.js.map": "/genius/static/js/main.b1c235b3.js.map"
+    "main.61bcdc11.js.map": "/genius/static/js/main.61bcdc11.js.map"
   },
   "entrypoints": [
     "static/css/main.56c30e53.css",
-    "static/js/main.b1c235b3.js"
+    "static/js/main.61bcdc11.js"
   ]
 }
