@@ -128,21 +128,22 @@ a {
   font-size: calc(5px + 2vmin);
 }
 
-@media (max-width: 375px) {
-  .pad {
-    width: 140px;
-    height: 140px;
-  }
-
-  .padWrapper {
-    flex-wrap: wrap;
-  }
-}
 
 @media (max-width: 720px) {
   .pad {
     width: 200px;
     height: 200px;
+  }
+  
+  .padWrapper {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 400px) {
+  .pad {
+    width: 140px;
+    height: 140px;
   }
 
   .padWrapper {
