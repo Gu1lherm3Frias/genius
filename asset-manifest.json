@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/gu1lherm3frias.github.io/static/css/main.32d231b1.css",
-    "main.js": "/gu1lherm3frias.github.io/static/js/main.fb720f4a.js",
-    "index.html": "/gu1lherm3frias.github.io/index.html",
-    "main.32d231b1.css.map": "/gu1lherm3frias.github.io/static/css/main.32d231b1.css.map",
-    "main.fb720f4a.js.map": "/gu1lherm3frias.github.io/static/js/main.fb720f4a.js.map"
+    "main.css": "/genius/static/css/main.32d231b1.css",
+    "main.js": "/genius/static/js/main.fb720f4a.js",
+    "index.html": "/genius/index.html",
+    "main.32d231b1.css.map": "/genius/static/css/main.32d231b1.css.map",
+    "main.fb720f4a.js.map": "/genius/static/js/main.fb720f4a.js.map"
   },
   "entrypoints": [
     "static/css/main.32d231b1.css",
