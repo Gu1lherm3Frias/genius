@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/genius/static/css/main.32d231b1.css",
-    "main.js": "/genius/static/js/main.fb720f4a.js",
+    "main.css": "/genius/static/css/main.56c30e53.css",
+    "main.js": "/genius/static/js/main.b1c235b3.js",
     "index.html": "/genius/index.html",
-    "main.32d231b1.css.map": "/genius/static/css/main.32d231b1.css.map",
-    "main.fb720f4a.js.map": "/genius/static/js/main.fb720f4a.js.map"
+    "main.56c30e53.css.map": "/genius/static/css/main.56c30e53.css.map",
+    "main.b1c235b3.js.map": "/genius/static/js/main.b1c235b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.32d231b1.css",
-    "static/js/main.fb720f4a.js"
+    "static/css/main.56c30e53.css",
+    "static/js/main.b1c235b3.js"
   ]
 }
