@@ -47,14 +47,14 @@ export default function App() {
   }, [isOn, play.isDisplay, play.colors.length])
 
   const displayColors = async () => {
-    await timeout(1000)
+    await timeout(500)
 
     for(let i = 0; i < play.colors.length; i++) {
       setFlashColor(play.colors[i])
       console.log(play.colors[i])
-      await timeout(1000)
+      await timeout(500)
       setFlashColor('')
-      await timeout(1000)
+      await timeout(500)
 
       if (i === play.colors.length - 1) {
         const copyColors = [...play.colors]
@@ -80,14 +80,14 @@ export default function App() {
         if (copyUserColors.length) {
           setPlay({...play, userColors: copyUserColors})
         }else {
-          await timeout(1000)
+          await timeout(500)
           setPlay({...play, isDisplay: true, userPlay: false, score: play.colors.length, userColors: []})
         }
       }else {
-        await timeout(1000)
+        await timeout(500)
         setPlay({...initPlay, score: play.colors.length})
       }
-      await timeout(1000)
+      await timeout(500)
       setFlashColor('')
     }
   }
