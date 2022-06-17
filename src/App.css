@@ -30,8 +30,10 @@
 }
 
 .pad {
-  width: 200px;
-  height: 400px;
+  max-width: 200px;
+  max-height: 400px;
+  width: 20vw;
+  height: 40vh;
   border-radius: 10px;
 }
 
@@ -78,8 +80,8 @@
 .lost {
   position: absolute;
   top: 35%;
-  width: 400px;
-  height: 300px;
+  width: 50vw;
+  height: 40vh;
   background-color: #101114;
   border-radius: 10px;
   z-index: 10;
@@ -87,12 +89,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 15%;
 }
 
 .lost button {
   width: 50%;
-  height: 50px;
+  height: 10vh;
   border: none;
   border-radius: 10px;
 
@@ -131,32 +133,48 @@ a {
 
 @media (max-width: 720px) {
   .pad {
-    width: 200px;
-    height: 200px;
+    width: 30vw;
+    height: 20vh;
   }
   
   .padWrapper {
+    width: 85vw;
     flex-wrap: wrap;
+    gap: 10px;
   }
 
   .lost {
     top: 30%;
-    width: 300px;
-    height: 300px;
+    width: 50vw;
+    height: 30vh;
+  }
+
+  .lost button {
+    height: 5vh;
   }
 
   .AppContainer {
-    min-height: 95vh;
+    min-height: 100vh;
   }
 }
 
 @media (max-width: 400px) {
   .pad {
-    width: 140px;
-    height: 140px;
+    width: 40vw;
+    height: 20vh;
   }
 
   .padWrapper {
+    width: 100vw;
     flex-wrap: wrap;
+  }
+
+  .lost {
+    width: 70vw;
+    
+  }
+
+  .lost button {
+    height: 7vh;
   }
 }
